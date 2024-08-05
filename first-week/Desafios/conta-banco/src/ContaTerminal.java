@@ -15,7 +15,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o nome da conta!");
         String nomeCliente = scanner.next();
 
-        System.out.println("Saldo: ");
+        System.out.println("Digite o saldo da conta: ");
         double saldo = scanner.nextDouble();
 
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é: "
